@@ -34,6 +34,8 @@ En mi caso lo hice con imagen de Docker, recuerda tener Docker ejecutandose ante
 
 En cmd o PowerShell: `docker run -d --restart always --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management-alpine`
 
+Para acceder a RabbitMQ del contenedor: Acceder a http://localhost:15672/, con Username `guest` y Password `guest`
+
 ## Endpoints
 
 - **GET http://localhost:8080/api/v1/publish?message=tu%20mensaje**
